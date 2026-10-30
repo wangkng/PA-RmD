@@ -1,0 +1,37 @@
+# Local environments, tools and credentials
+.venv/
+venv/
+env_*/
+.claude/
+.codex/
+.agents/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated data and research artifacts
+/data/
+/outputs/
+/tmp/
+/logs/
+/checkpoints/
+
+# Python, packaging and platform caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.mplconfig/
+.ipynb_checkpoints/
+.DS_Store
+**/.baseline_protocol.lock

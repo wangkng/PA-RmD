@@ -1,0 +1,10 @@
+# Default: Python 3.11, Linux NVIDIA GPU with CUDA 12.
+# GPU installation has not yet been validated on hardware.
+jax[cuda12]==0.9.2
+numpy==2.4.4
+matplotlib==3.10.8
+optax==0.2.8
+scipy==1.17.1
+cvxpy==1.7.5
+clarabel==0.11.1
+scs==3.2.11
